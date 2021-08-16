@@ -1,0 +1,597 @@
+*{
+  font-family: 'Oswald', sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+  transition: 3s;
+  
+}
+
+/*========================================= */
+/* WEB ANIMATION */
+/*========================================= */
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+:root {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+}
+
+.animate__animated.animate__backInRight {
+  --animate-duration: 2s;
+}
+.animate__animated.animate__backInLeft {
+  --animate-duration: 3s;
+}
+.animate__animated.animate__fadeInTopLeft {
+  --animate-duration: 7s;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+.animate__animated.animate__bounce:root {
+  --animate-duration: 2s;
+}
+/*========================================= */
+/* WEB ANIMATION */
+/*========================================= */
+element {
+	margin: 15px 0px;
+}
+
+
+.navbar{
+  background: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+.navbar img {
+	height: 65px;
+  z-index: -1;
+}
+.nav-link {
+	color: #fff;
+  font-size: 20px;
+}
+.nav-link:hover{
+  color: gold;
+}
+#home-section{
+  background: url(../img/slider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-attachment: fixed;
+}
+.home-inner{
+  padding-top: 300px;
+  padding-bottom: 200px;
+}
+.slider-area {
+	background: url(../img/patern.png);
+	background-repeat: repeat;
+	height: 270px;
+	padding: 38px 152px;
+	margin-left: -213px;
+	margin-right: -205px;
+	margin-top: -90px;
+}
+.slider-text {
+	color: #fff;
+}
+.slider-text h1 {
+	font-size: 55px;
+	text-transform: uppercase;
+	font-weight: 506;
+}
+.btn {
+	height: 40px;
+	width: 100px;
+}
+#service-section{
+  position: relative;
+}
+#service-section h5{
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+}
+#service-section h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#service-section::after {
+	position: absolute;
+	top: 140px;
+	left: 43%;
+	height: 2px;
+	width: 212px;
+	content: "";
+	background: #ffe600;
+}
+#service-section p {
+	color: #707070;
+	font-size: 17px;
+}
+.circle{
+  background: #ffe600;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  padding: 35px 35px;
+}
+
+#Do-section {
+	background: url(../img/how-we-do-it.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 501px;
+  background-attachment: fixed;
+}
+.dark-overlay {
+	background: url(../img/patern.png);
+	background-repeat: repeat;
+	height: 501px; 
+}
+.header-item i{
+  color: #ffe600;
+}
+#do-so h5{
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+}
+#do-so h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+#do-so{
+  position: relative;
+}
+#do-so::after {
+	position: absolute;
+	top: 86px;
+	left: 43%;
+	height: 2px;
+	width: 212px;
+	content: "";
+	background: #ffe600;
+}
+#do-so p {
+	color: #707070;
+	font-size: 17px;
+}
+.mix-nav{
+  list-style: none;
+}
+.mix-nav li{
+  display: inline-block;
+  padding: 35px;
+}
+.mix-nav li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #707070;
+}
+.mix-nav li :hover{
+  color: #ffe600;
+}
+.dot{
+  position: relative;
+}
+.dot::after {
+	position: absolute;
+	top: 12px;
+	left: -18px;
+	height: 6px;
+	width: 6px;
+	content: "";
+	background: #ffe600;
+	border-radius: 50%;
+}
+.picture {
+	height: 150px;
+}
+  .end-section h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+  }
+  .end-section h5{
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+  }
+  .end-section button {
+    background: #ffe600;
+    border-radius: 0;
+    height: 50px;
+    width: 140px;
+  }
+  #proud-section{
+    background: url(../img/we-are-proud.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    background-attachment: fixed;
+  }
+  .proud-number h1{
+    font-size: 32px;
+    font-weight: 700;
+     margin-top: 15px;
+    margin-bottom: 25px;
+    color: #fff;
+  }
+  .proud-number p{
+    font-size: 18px;
+  color: #e0d7d7c0;
+  font-weight: 400;
+  }
+  .single-number{
+    border: 2px solid #ffe600;
+    padding: 25px 0px;
+  }
+  .counter{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+  }
+  .single-number span{
+    color: #ffe600;
+  }
+  .aboutus-section h5{
+    font-size: 18px;
+    color: #707070;
+    font-weight: 400;
+  }
+  .aboutus-section h1{
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  #about-section{
+    position: relative;
+  }
+  #about-section::after {
+    position: absolute;
+    top: 140px;
+    left: 43%;
+    height: 2px;
+    width: 212px;
+    content: "";
+    background: #ffe600;
+  }
+  .aboutus-section p {
+    color: #707070;
+    font-size: 17px;
+  }
+
+  .iconcircel i {
+    background: #FFCF03;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 18px 18px;
+    margin-top: -18px;
+    font-size: 20px;
+  }
+  .text-style p{
+    color: #707070;
+    font-size: 17px;
+  }
+  .text-style h5 {
+    font-size: 17px;
+  }
+  .team-section p{
+      color: #707070;
+      font-size: 17px;
+  }
+  .freetxt {
+      border-bottom: 2px solid #9b9b9b;
+      background: #fff;
+      position: relative;
+      display: block;
+  }
+  .freetxt .name {
+    display: block;
+    text-transform: uppercase;
+    color: #ffe600;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+  }
+.freetxt .title {
+  display: block;
+  text-transform: uppercase;
+  color: #707070;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.freetxt img {
+	height: 250px;
+	width: 190px;
+	margin-top: 15px;
+}
+
+
+/*========================================= */
+/* SKILL SECTION */
+/*========================================= */
+
+#skill-section {
+  background:url(../img/skills.jpg);
+  padding-bottom: 50px;
+  height: 460px;
+  position: relative;
+}
+.bg-colr{
+  background: url(../img/patern.png);
+  height: 460px;
+}
+.skill-heading h1{
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+}
+.skill-heading p{
+   color: #e0dada;
+   font-size: 17px;
+}
+.single-skill{
+  color: #ffe600;
+  margin-top: 30px;
+}
+.chart h2 {
+	position: absolute;
+	top: 69px;
+	left: 118px;
+	font-size: 25px;
+}
+.single-skill h2{
+  font-size: 27px;
+  text-align: center;
+}
+/*========================================= */
+/* SKILL SECTION */
+/*========================================= */
+
+
+
+/*========================================= */
+/* OUR CLIENT  SECTION */
+/*========================================= */
+.our-client h5{
+  font-size: 18px;
+  color: #707070;
+  font-weight: 400;
+}
+.our-client h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.our-client p {
+	color: #707070;
+	font-size: 17px;
+}
+.our-client{
+  position: relative;
+}
+.our-client::after {
+	position: absolute;
+	top: 86px;
+	left: 39%;
+	height: 2px;
+	width: 237px;
+	content: "";
+	background: #ffe600;
+}
+.item img{
+  width: auto;
+  height: 75px;
+}
+.hvre-img{
+  filter: grayscale(100%);
+}
+.hvre-img:hover{
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+}
+
+.owl-next span{
+  background: #ffe600;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 30px;
+  color: #fff;
+  height: 50px;
+  line-height: 35px;
+}
+.owl-prev span{
+  background: #ffe600;
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 30px;
+  color: #fff;
+  height: 50px;
+  line-height: 35px;
+}
+/*========================================= */
+/* TESTIMONIAL SECTION */
+/*========================================= */
+#testimonial-section{
+  background: url(../img/slider.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  background-attachment: fixed;
+}
+.bg-clr{
+  background: url(../img/patern.png);
+  height: 200px;
+}
+.carousel-indicators li{
+  width: 15px !important;
+  height: 15px !important;
+  border-radius: 50% !important;
+  margin-bottom: -60px !important;
+}
+.carousel-indicators {
+	position: absolute;
+	right: 0;
+	bottom: -12px !important;
+	left: 0;
+	z-index: 15;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: center;
+	justify-content: center;
+	padding-left: 0;
+	margin-right: 15%;
+	margin-left: 15%;
+	list-style: none;
+}
+.carousel-indicators:hover{
+ color: #ffe600 !important;
+}
+.custom-text span{
+  display: inline-block;
+  width: 220px;
+  height: 3px;
+  background: #ffe600;
+}
+.cnt-section h5 {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #707070;
+	font-weight: 400;
+}
+.cnt-section h1{
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.cnt-section p{
+  color: #707070;
+	font-size: 17px;
+}
+
+.cnt-section::after {
+	position: absolute;
+	top: 86px;
+	left: 42%;
+	height: 2px;
+	width: 234px;
+	content: "";
+	background: #ffe600;
+}
+.info-section i {
+	font-size: 30px;
+	color: #ffe600;
+}
+.info-section h1 {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 15px;
+}
+.info-section p {
+	font-size: 20px;
+	font-weight: 10;
+	margin: -15px;
+}
+#send-massage{
+  background: url(../img/contact-us.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+}
+.bg-partten {
+	background: url(../img/patern.png);
+	height: 601px;
+	margin-top: -49px;
+}
+.contact-text h1{
+	text-transform: uppercase;
+	font-size: 32px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: #fff;
+}
+.contact-text{
+  color: #fff;
+	font-size: 17px;
+}
+.form-group input{
+  width: 100%;
+  height: 48px;
+  color: #fff;
+  background: transparent;
+  padding: 10px;
+}
+.my-text-area textarea{
+  width: 100%;
+  height: 250px;
+  color: #fff;
+  background: transparent;
+  padding: 10px;
+}
+.buton {
+	height: 50px;
+	width: 180px;
+	margin-top: 35px;
+	color: #000;
+	background: #ffe600;
+  border: 0;
+}
+#footer-area{
+  background: #000;
+}
+.footer-section h5 {
+	font-size: 18px;
+	font-weight: 10;
+  color: #fff;
+}
+.footer-section a{
+  color: #FFCF03;
+}
+.footer-section a:hover{
+  color: brown;
+}
+.footer-icon i{
+  padding: 0px 15px;
+  color: #fff;
+}
+.fab.fa-facebook-f:hover {
+	background: blue;
+	padding: 8px 8px;
+}
+.fab.fa-twitter:hover {
+	background: aqua;
+	padding: 8px 8px;
+}
+.fab.fa-youtube:hover {
+	background: red;
+	padding: 8px 8px;
+}
+.fab.fa-linkedin-in:hover {
+	background: #6495ed;
+	padding: 8px 8px;
+}
